@@ -149,9 +149,10 @@ textarea:focus{
 .resultado{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 10px;
-    gap: 72px;
+    gap: 42px;
     isolation: isolate;
 
     position: absolute;
@@ -164,4 +165,43 @@ textarea:focus{
     border-radius: 60px;
     
     z-index: 0;
+}
+
+/*Si no se encuentra ningún mensaje:*/
+
+.texto-vacio{
+    width: 360px;
+    height: 173px;
+}
+
+.no-msg{
+    position: absolute;
+    width: 360px;
+    height: 81px;
+    left: 50px;
+    top: 501.5px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.no-msg-descripcion{
+    position: absolute;
+    width: 355px;
+    height: 78px;
+    left: 53px;
+    top: 596.5px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #000000;
 }
