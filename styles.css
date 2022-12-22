@@ -1,0 +1,15 @@
+main{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: #2E545C;
+}
+
+.candado{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 20px;
+    top: 16px;
+}
