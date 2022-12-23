@@ -112,6 +112,20 @@ textarea:focus{
 
 /*botones centrales*/
 
+.botones-principales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 228px;
+    height: 104px;
+    left: 633px;
+    top: 428px;
+}
+
 .boton{
     position: absolute;
     display: flex;
@@ -147,15 +161,14 @@ textarea:focus{
 #encriptar{
     width: auto;
     height: 40px;
-    left: 668px;
-    top: 428px;
+    margin: 0 auto;
 }
 
 #desencriptar{
     width: auto;
     height: 40px;
-    left: 646px;
-    top: 492px;
+    top: 50px;
+    margin: o auto;
 }
 
 
