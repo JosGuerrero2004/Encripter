@@ -288,3 +288,110 @@ textarea:focus{
     top: 755px;
     display: none;
 }
+
+@media screen and (max-width: 912px) {
+    main{
+        width: auto;
+        height: auto;
+        padding: 64px;
+        align-items: center;
+    }
+
+    .candado{
+        display: inline-block;
+    }
+
+    /*div de la izquierda*/
+    .ingresar{
+        display: block;
+        left: auto;
+        top: auto;
+        display: flex;
+        width: fill;
+        height: 676px;
+        z-index: 1;
+    }
+
+        /*contenido del div de la izquierda*/
+
+    /*configuracion general de los textarea*/
+
+    textarea{
+        position: relative;
+        height: 566px;
+    }
+
+    .exclamacion{
+        position: absolute;
+        left: 42px;
+        top: 630px;
+    }
+
+    .alert{
+        position: absolute;
+        left: 71px;
+        top: 631px;
+    }
+
+    /*Botones centrales*/
+
+    .botones-principales{
+        display: block;
+        align-items: center;
+        position: absolute;
+        left: 25%;
+        top: 800px;
+        z-index: 1;
+    }
+
+    /*div de la izquierda*/
+
+    .resultado{
+        position: relative;
+        display: block;
+        align-items: center;
+        height: 260px;
+        width: fill;
+
+        left: auto;
+        top: 870px;
+
+        justify-content: center;
+        z-index: 1;
+    }
+
+    .muneco{
+        display: none;
+    }
+
+    .texto-vacio{
+        margin: 0 auto;
+        text-align: center;
+        width: fill;
+        justify-content: center;
+    }
+
+    .no-msg{
+        position: absolute;
+        text-align: center;
+        width: auto;
+        top: 30%;
+
+    }
+
+    .no-msg-descripcion{
+        position: absolute;
+        text-align: center;
+        width: inherit;
+        top: 50%;
+    }
+
+    #resultado{
+        height: 190px;
+
+    }
+
+    #copiar{
+        top: 230px;
+    }
+}
