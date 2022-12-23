@@ -76,7 +76,11 @@ textarea:focus{
 }
 
 #resultado{
-    visibility: hidden;
+    position: absolute;
+    left: 19px;
+    top: 24px;
+    z-index: 2;
+    display: none;
 }
 
     /*items inferiores*/
@@ -228,10 +232,7 @@ textarea:focus{
     gap: 4px;
 
     position: absolute;
-    width: 119px;
-    height: 40px;
-    left: 171px;
-    top: 755px;
+    
 
     /* White */
 
@@ -265,3 +266,10 @@ textarea:focus{
     cursor: pointer;
 }
 
+#copiar{
+    width: 119px;
+    height: 40px;
+    left: 171px;
+    top: 755px;
+    display: none;
+}
