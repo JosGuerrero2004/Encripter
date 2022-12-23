@@ -1,9 +1,12 @@
 body{
     font-family: 'IBM Plex Mono', monospace;
     font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    background-color: #2E545C;
 }
 
 main{
+    margin: 0 auto;
     position: relative;
     width: 1440px;
     height: 1024px;
@@ -49,8 +52,6 @@ textarea{
     position: absolute;
     width: 421px;
     height: 738px;
-    left: 19px;
-    top: 24px;
 
     font-family: 'IBM Plex Mono';
     font-style: normal;
@@ -67,6 +68,15 @@ textarea{
 
 textarea:focus{
     outline: none;
+}
+
+#ingresar-texto{
+    left: 19px;
+    top: 24px;
+}
+
+#resultado{
+    visibility: hidden;
 }
 
     /*items inferiores*/
@@ -122,6 +132,7 @@ textarea:focus{
     text-decoration-line: underline;
     box-shadow: 0px 24px 32px -12px rgba(0, 0, 0, 0.15);
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .boton:active{
@@ -251,4 +262,6 @@ textarea:focus{
     /* drop-shadow_REG_NEW */
     transform: scale(1.1);
     box-shadow: 0px 24px 32px -12px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
+
