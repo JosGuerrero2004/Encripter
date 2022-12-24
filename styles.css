@@ -289,10 +289,12 @@ textarea:focus{
     display: none;
 }
 
+/*responsive*/
+
 @media screen and (max-width: 912px) {
     main{
         width: fit-content;
-        height: fit-content;
+        height: 1150px;
         padding: 64px;
         align-items: center;
     }
