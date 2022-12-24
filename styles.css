@@ -291,8 +291,8 @@ textarea:focus{
 
 @media screen and (max-width: 912px) {
     main{
-        width: auto;
-        height: auto;
+        width: fit-content;
+        height: fit-content;
         padding: 64px;
         align-items: center;
     }
@@ -336,10 +336,9 @@ textarea:focus{
     /*Botones centrales*/
 
     .botones-principales{
-        display: block;
+        display: flex;
         align-items: center;
-        position: absolute;
-        left: 25%;
+        left: 30%;
         top: 800px;
         z-index: 1;
     }
