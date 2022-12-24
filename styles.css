@@ -300,7 +300,7 @@ textarea:focus{
     }
 
     .candado{
-        display: inline-block;
+        display: block;
     }
 
     /*div de la izquierda*/
