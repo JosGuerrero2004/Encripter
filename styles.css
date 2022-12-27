@@ -389,7 +389,7 @@ textarea:focus{
 
     #resultado-textarea{
         height: 190px;
-
+        padding-right: 20px;
     }
 
     #copiar{
