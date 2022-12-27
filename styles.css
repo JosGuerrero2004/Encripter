@@ -76,7 +76,7 @@ textarea:focus{
     top: 24px;
 }
 
-#resultado{
+#resultado-textarea{
     position: absolute;
     left: 19px;
     top: 24px;
@@ -387,7 +387,7 @@ textarea:focus{
         top: 50%;
     }
 
-    #resultado{
+    #resultado-textarea{
         height: 190px;
 
     }
